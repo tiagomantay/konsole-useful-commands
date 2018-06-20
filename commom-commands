@@ -1,0 +1,3 @@
+
+# find a folder
+find . -type | grep DIR_NAME
