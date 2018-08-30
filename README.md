@@ -22,7 +22,7 @@ Reading a log file in real time
 ```$ command_1 && command_2 (run 2 only if 1 was successful)```
 
 ## run commands in sequence
-tail -f path_to_log | grep search_term
+```tail -f path_to_log | grep search_term```
 
 ## reference the last item from the previous command:  !$
 ```$ cd home```
