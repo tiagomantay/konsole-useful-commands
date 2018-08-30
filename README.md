@@ -5,7 +5,8 @@ Konsole (terminal) useful commands
 ```yes | command```
 
 ## reading a log file in real time
-Reading a log file in real time
+```tail -f [LOG_FILE]```
+```tail -f [LOG_FILE] | grep [word/text]  --> Only word/text matches! ```
 
 ## find folders
 ```$ find . -type | grep [DIR_NAME]```
@@ -28,11 +29,9 @@ Reading a log file in real time
 ```$ cd home```
 ```$ls !$    --> equal to: ls home```
 
-
 ## reference the last item from the previous command:  !!
 ```$ apt-get install xmms2```
 ```$sudo !!    --> equal to: sudo apt-get install xmms2```
-
 
 ## create your alias
 ```$ alias ls=dir```
